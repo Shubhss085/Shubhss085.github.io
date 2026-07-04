@@ -484,11 +484,12 @@ ul { list-style: none; }
 
 /* === ABOUT === */
 .about-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: center;
   gap: 1.5rem;
   max-width: 700px;
   margin: 0 auto 2.5rem;
+  flex-wrap: wrap;
 }
 
 .about-card {
@@ -498,6 +499,7 @@ ul { list-style: none; }
   padding: 1.5rem;
   text-align: center;
   transition: var(--transition);
+  flex: 0 1 200px;
 }
 
 .about-card:hover {
