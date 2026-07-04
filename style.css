@@ -113,9 +113,17 @@ ul { list-style: none; }
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--primary);
+}
+
+.logo-img {
+  width: 36px;
+  height: 36px;
 }
 
 .nav-links {
