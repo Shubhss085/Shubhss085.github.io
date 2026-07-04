@@ -766,6 +766,13 @@ ul { list-style: none; }
   gap: 2rem;
 }
 
+.project-single {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .project-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
